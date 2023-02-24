@@ -1,3 +1,4 @@
+import 'package:finance_app/Screens/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:finance_app/Screens/home.dart';
 import 'package:finance_app/Screens/settings.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
 
       debugShowCheckedModeBanner: false,
-      home:  OnBoardingScreen(),
+      home:  SignUpScreen(),
       theme: ThemeData(
 
         primarySwatch:Colors.deepPurple,

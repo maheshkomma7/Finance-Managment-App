@@ -49,6 +49,8 @@ dependencies:
   language_picker: ^0.4.3
   gender_picker: ^1.1.0
   settings_ui: ^2.0.2
+  shared_preferences: ^2.0.18
+  cloud_firestore: ^4.4.3
 
 dev_dependencies:
   flutter_test:

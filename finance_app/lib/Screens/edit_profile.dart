@@ -1,5 +1,6 @@
 //import 'package:dob_input_field/dob_input_field.dart';
 import 'package:finance_app/Screens/profile.dart';
+import 'package:finance_app/data/shared_prefs.dart';
 import 'package:gender_picker/source/enums.dart';
 import 'package:gender_picker/gender_picker.dart';
 import 'package:flutter/material.dart';
@@ -74,7 +75,7 @@ class EditProfileState extends State<EditProfile> {
                    controller: first_name_con,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
-                      hintText: "First Name",
+                      hintText: SharedPrefsConstant.firstname,
                     ),
                   ),
                 ),
@@ -91,7 +92,7 @@ class EditProfileState extends State<EditProfile> {
                    controller: last_name_con,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
-                      hintText: "Last Name",
+                      hintText: SharedPrefsConstant.lastname,
                     ),
                                  ),
                                ),
@@ -109,7 +110,7 @@ class EditProfileState extends State<EditProfile> {
                    
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
-                      hintText: "Email",
+                      hintText:SharedPrefsConstant.email,
                     ),
                                  ),
                                ),

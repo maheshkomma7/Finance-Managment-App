@@ -10,6 +10,7 @@ import 'package:flutter_signin_button/flutter_signin_button.dart';
 class LogInScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
       body: Padding(
         padding: kDefaultPadding,
